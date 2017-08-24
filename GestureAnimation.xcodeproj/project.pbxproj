@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC33ACEE1F4EA6D600BF5491 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC33ACED1F4EA6D600BF5491 /* main.m */; };
+		EC33ACF11F4EA6D600BF5491 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC33ACF01F4EA6D600BF5491 /* AppDelegate.m */; };
+		EC33ACF41F4EA6D600BF5491 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC33ACF31F4EA6D600BF5491 /* ViewController.m */; };
+		EC33ACF71F4EA6D600BF5491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC33ACF51F4EA6D600BF5491 /* Main.storyboard */; };
+		EC33ACF91F4EA6D600BF5491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC33ACF81F4EA6D600BF5491 /* Assets.xcassets */; };
+		EC33ACFC1F4EA6D600BF5491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC33ACFA1F4EA6D600BF5491 /* LaunchScreen.storyboard */; };
+		EC33AD071F4EA6D600BF5491 /* GestureAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC33AD061F4EA6D600BF5491 /* GestureAnimationTests.m */; };
+		EC33AD121F4EA6D600BF5491 /* GestureAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC33AD111F4EA6D600BF5491 /* GestureAnimationUITests.m */; };
+		EC33AD201F4EA6DD00BF5491 /* door.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EC33AD1F1F4EA6DD00BF5491 /* door.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC33AD031F4EA6D600BF5491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC33ACE11F4EA6D600BF5491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC33ACE81F4EA6D600BF5491;
+			remoteInfo = GestureAnimation;
+		};
+		EC33AD0E1F4EA6D600BF5491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC33ACE11F4EA6D600BF5491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC33ACE81F4EA6D600BF5491;
+			remoteInfo = GestureAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC33ACE91F4EA6D600BF5491 /* GestureAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC33ACED1F4EA6D600BF5491 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC33ACEF1F4EA6D600BF5491 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC33ACF01F4EA6D600BF5491 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC33ACF21F4EA6D600BF5491 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC33ACF31F4EA6D600BF5491 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC33ACF61F4EA6D600BF5491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC33ACF81F4EA6D600BF5491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC33ACFB1F4EA6D600BF5491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC33ACFD1F4EA6D600BF5491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC33AD021F4EA6D600BF5491 /* GestureAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC33AD061F4EA6D600BF5491 /* GestureAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureAnimationTests.m; sourceTree = "<group>"; };
+		EC33AD081F4EA6D600BF5491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC33AD0D1F4EA6D600BF5491 /* GestureAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC33AD111F4EA6D600BF5491 /* GestureAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureAnimationUITests.m; sourceTree = "<group>"; };
+		EC33AD131F4EA6D600BF5491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC33AD1F1F4EA6DD00BF5491 /* door.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = door.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC33ACE61F4EA6D600BF5491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC33ACFF1F4EA6D600BF5491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC33AD0A1F4EA6D600BF5491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC33ACE01F4EA6D600BF5491 = {
+			isa = PBXGroup;
+			children = (
+				EC33ACEB1F4EA6D600BF5491 /* GestureAnimation */,
+				EC33AD051F4EA6D600BF5491 /* GestureAnimationTests */,
+				EC33AD101F4EA6D600BF5491 /* GestureAnimationUITests */,
+				EC33ACEA1F4EA6D600BF5491 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC33ACEA1F4EA6D600BF5491 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC33ACE91F4EA6D600BF5491 /* GestureAnimation.app */,
+				EC33AD021F4EA6D600BF5491 /* GestureAnimationTests.xctest */,
+				EC33AD0D1F4EA6D600BF5491 /* GestureAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC33ACEB1F4EA6D600BF5491 /* GestureAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EC33AD1F1F4EA6DD00BF5491 /* door.jpeg */,
+				EC33ACEF1F4EA6D600BF5491 /* AppDelegate.h */,
+				EC33ACF01F4EA6D600BF5491 /* AppDelegate.m */,
+				EC33ACF21F4EA6D600BF5491 /* ViewController.h */,
+				EC33ACF31F4EA6D600BF5491 /* ViewController.m */,
+				EC33ACF51F4EA6D600BF5491 /* Main.storyboard */,
+				EC33ACF81F4EA6D600BF5491 /* Assets.xcassets */,
+				EC33ACFA1F4EA6D600BF5491 /* LaunchScreen.storyboard */,
+				EC33ACFD1F4EA6D600BF5491 /* Info.plist */,
+				EC33ACEC1F4EA6D600BF5491 /* Supporting Files */,
+			);
+			path = GestureAnimation;
+			sourceTree = "<group>";
+		};
+		EC33ACEC1F4EA6D600BF5491 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC33ACED1F4EA6D600BF5491 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC33AD051F4EA6D600BF5491 /* GestureAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC33AD061F4EA6D600BF5491 /* GestureAnimationTests.m */,
+				EC33AD081F4EA6D600BF5491 /* Info.plist */,
+			);
+			path = GestureAnimationTests;
+			sourceTree = "<group>";
+		};
+		EC33AD101F4EA6D600BF5491 /* GestureAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC33AD111F4EA6D600BF5491 /* GestureAnimationUITests.m */,
+				EC33AD131F4EA6D600BF5491 /* Info.plist */,
+			);
+			path = GestureAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC33ACE81F4EA6D600BF5491 /* GestureAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC33AD161F4EA6D600BF5491 /* Build configuration list for PBXNativeTarget "GestureAnimation" */;
+			buildPhases = (
+				EC33ACE51F4EA6D600BF5491 /* Sources */,
+				EC33ACE61F4EA6D600BF5491 /* Frameworks */,
+				EC33ACE71F4EA6D600BF5491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GestureAnimation;
+			productName = GestureAnimation;
+			productReference = EC33ACE91F4EA6D600BF5491 /* GestureAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC33AD011F4EA6D600BF5491 /* GestureAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC33AD191F4EA6D600BF5491 /* Build configuration list for PBXNativeTarget "GestureAnimationTests" */;
+			buildPhases = (
+				EC33ACFE1F4EA6D600BF5491 /* Sources */,
+				EC33ACFF1F4EA6D600BF5491 /* Frameworks */,
+				EC33AD001F4EA6D600BF5491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC33AD041F4EA6D600BF5491 /* PBXTargetDependency */,
+			);
+			name = GestureAnimationTests;
+			productName = GestureAnimationTests;
+			productReference = EC33AD021F4EA6D600BF5491 /* GestureAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC33AD0C1F4EA6D600BF5491 /* GestureAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC33AD1C1F4EA6D600BF5491 /* Build configuration list for PBXNativeTarget "GestureAnimationUITests" */;
+			buildPhases = (
+				EC33AD091F4EA6D600BF5491 /* Sources */,
+				EC33AD0A1F4EA6D600BF5491 /* Frameworks */,
+				EC33AD0B1F4EA6D600BF5491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC33AD0F1F4EA6D600BF5491 /* PBXTargetDependency */,
+			);
+			name = GestureAnimationUITests;
+			productName = GestureAnimationUITests;
+			productReference = EC33AD0D1F4EA6D600BF5491 /* GestureAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC33ACE11F4EA6D600BF5491 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lsh726;
+				TargetAttributes = {
+					EC33ACE81F4EA6D600BF5491 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K74UKU9UG7;
+						ProvisioningStyle = Automatic;
+					};
+					EC33AD011F4EA6D600BF5491 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K74UKU9UG7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC33ACE81F4EA6D600BF5491;
+					};
+					EC33AD0C1F4EA6D600BF5491 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K74UKU9UG7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC33ACE81F4EA6D600BF5491;
+					};
+				};
+			};
+			buildConfigurationList = EC33ACE41F4EA6D600BF5491 /* Build configuration list for PBXProject "GestureAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC33ACE01F4EA6D600BF5491;
+			productRefGroup = EC33ACEA1F4EA6D600BF5491 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC33ACE81F4EA6D600BF5491 /* GestureAnimation */,
+				EC33AD011F4EA6D600BF5491 /* GestureAnimationTests */,
+				EC33AD0C1F4EA6D600BF5491 /* GestureAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC33ACE71F4EA6D600BF5491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC33ACFC1F4EA6D600BF5491 /* LaunchScreen.storyboard in Resources */,
+				EC33AD201F4EA6DD00BF5491 /* door.jpeg in Resources */,
+				EC33ACF91F4EA6D600BF5491 /* Assets.xcassets in Resources */,
+				EC33ACF71F4EA6D600BF5491 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC33AD001F4EA6D600BF5491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC33AD0B1F4EA6D600BF5491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC33ACE51F4EA6D600BF5491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC33ACF41F4EA6D600BF5491 /* ViewController.m in Sources */,
+				EC33ACF11F4EA6D600BF5491 /* AppDelegate.m in Sources */,
+				EC33ACEE1F4EA6D600BF5491 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC33ACFE1F4EA6D600BF5491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC33AD071F4EA6D600BF5491 /* GestureAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC33AD091F4EA6D600BF5491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC33AD121F4EA6D600BF5491 /* GestureAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC33AD041F4EA6D600BF5491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC33ACE81F4EA6D600BF5491 /* GestureAnimation */;
+			targetProxy = EC33AD031F4EA6D600BF5491 /* PBXContainerItemProxy */;
+		};
+		EC33AD0F1F4EA6D600BF5491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC33ACE81F4EA6D600BF5491 /* GestureAnimation */;
+			targetProxy = EC33AD0E1F4EA6D600BF5491 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC33ACF51F4EA6D600BF5491 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC33ACF61F4EA6D600BF5491 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC33ACFA1F4EA6D600BF5491 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC33ACFB1F4EA6D600BF5491 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC33AD141F4EA6D600BF5491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC33AD151F4EA6D600BF5491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC33AD171F4EA6D600BF5491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = GestureAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.GestureAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC33AD181F4EA6D600BF5491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = GestureAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.GestureAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC33AD1A1F4EA6D600BF5491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = GestureAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.GestureAnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestureAnimation.app/GestureAnimation";
+			};
+			name = Debug;
+		};
+		EC33AD1B1F4EA6D600BF5491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = GestureAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.GestureAnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestureAnimation.app/GestureAnimation";
+			};
+			name = Release;
+		};
+		EC33AD1D1F4EA6D600BF5491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = GestureAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.GestureAnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GestureAnimation;
+			};
+			name = Debug;
+		};
+		EC33AD1E1F4EA6D600BF5491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = GestureAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.GestureAnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GestureAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC33ACE41F4EA6D600BF5491 /* Build configuration list for PBXProject "GestureAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC33AD141F4EA6D600BF5491 /* Debug */,
+				EC33AD151F4EA6D600BF5491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC33AD161F4EA6D600BF5491 /* Build configuration list for PBXNativeTarget "GestureAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC33AD171F4EA6D600BF5491 /* Debug */,
+				EC33AD181F4EA6D600BF5491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC33AD191F4EA6D600BF5491 /* Build configuration list for PBXNativeTarget "GestureAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC33AD1A1F4EA6D600BF5491 /* Debug */,
+				EC33AD1B1F4EA6D600BF5491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC33AD1C1F4EA6D600BF5491 /* Build configuration list for PBXNativeTarget "GestureAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC33AD1D1F4EA6D600BF5491 /* Debug */,
+				EC33AD1E1F4EA6D600BF5491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC33ACE11F4EA6D600BF5491 /* Project object */;
+}
