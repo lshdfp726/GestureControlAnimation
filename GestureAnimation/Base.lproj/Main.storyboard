@@ -21,13 +21,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9D9-Sk-oem">
-                                <rect key="frame" x="67" y="223" width="240" height="257"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9D9-Sk-oem">
+                                <rect key="frame" x="59.5" y="205" width="255" height="257"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="257" id="7xQ-45-U1O"/>
+                                    <constraint firstAttribute="width" constant="255" id="8aN-rl-Xkn"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9D9-Sk-oem" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Z1d-6x-UrZ"/>
+                            <constraint firstItem="9D9-Sk-oem" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fIV-CK-aLf"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="containerView" destination="9D9-Sk-oem" id="UZG-Uq-lk9"/>
